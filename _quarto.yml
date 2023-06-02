@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: docs
+  
+format:
+  html:
+    css: materials/assets/styles/styles.css
+    toc: true
+    theme: 
+      light: [flatly, materials/assets/styles/flatly_footer.scss]
+      dark: [darkly, materials/assets/styles/darkly_footer.scss]
+    code-link: true
+    highlight-style: arrow
+
+
+website:
+  title: "My Homepage"
+  favicon: materials/assets/pics/favicon-32x32.png
+  page-navigation: true
+#  search: false
+  search: 
+    location: navbar
+    type: overlay
+  page-footer:
+    left: |
+      Made with <a href="https://quarto.org/" target="_blank">Quarto</a> 
+    center: |
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    right: |
+       <a href="https://github.com/mmneubert/mmneubert.github.io/" target="_blank">Github Code Repo</a> 
+      
+  navbar:
+    title: false
+    collapse-below: lg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Tutorials
+        href: materials/tutorials/index_tutorials.qmd
+      - text: Stats101
+        href: materials/stats101/index_stats101.qmd
+        
+    right: 
+      - text: CV
+        href: materials/cv/cv.qmd
+
+        
+        
+        
+  sidebar: 
+    - id: Tutorials
+      style: floating
+      collapse-level: 2
+      align: left
+      contents: 
+        - text: Tutorials
+          href: materials/tutorials/index_tutorials.qmd
+        - section: "Thema 1"
+          contents: 
+            - materials/tutorials/posts/thema-1/tutorial-1.qmd
+            - materials/tutorials/posts/thema-1/tutorial-2.qmd
+            
+    - id: Stats101
+      contents:
+        - text: Stats101
+          href: materials/stats101/index_stats101.qmd
+        - section: "stats thema 1"
+          contents:
+            - materials/stats101/basic-probability/stats101-1.qmd
+            - materials/stats101/basic-probability/stats101-2.qmd
+
+
+
+

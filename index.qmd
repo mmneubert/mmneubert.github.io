@@ -1,0 +1,18 @@
+---
+title: "Martin Neubert"
+about:
+  template: jolla
+  image: materials/assets/pics/profile.jpg
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/martin-matthias-neubert-0bb500197/
+    - icon: github
+      text: Github
+      href: https://github.com/mmneubert
+    - icon: envelope
+      text: Contact
+      href: mailto:martinneubert@gmx.net
+---
+
+main landing page

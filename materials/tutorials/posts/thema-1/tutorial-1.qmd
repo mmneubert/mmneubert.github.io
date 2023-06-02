@@ -1,0 +1,22 @@
+---
+title: "tut 1"
+title-block-banner: true
+author: "Me"
+date: "2023-01-26"
+categories: [A, B, C]
+image: "image.jpg"
+format:
+  html:
+    code-fold: show
+    code-tools:
+      source: false
+      toggle: true
+---
+```{r}
+1+1
+
+library(ggplot2)
+ggplot(iris, aes(x = Petal.Length, y = Petal.Width, color = Species))+
+  geom_point()
+```
+
