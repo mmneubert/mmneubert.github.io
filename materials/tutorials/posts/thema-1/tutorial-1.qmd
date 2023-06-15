@@ -1,6 +1,6 @@
 ---
 title: "tut 1"
-title-block-banner: true
+title-block-banner: false
 author: "Me"
 date: "2023-01-26"
 categories: [A, B, C]
