@@ -4,6 +4,7 @@ project:
   
 format:
   html:
+    mainfont: Roboto
     css: materials/assets/styles/styles.css
     toc: true
     theme: 
