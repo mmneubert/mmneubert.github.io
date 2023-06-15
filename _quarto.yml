@@ -5,6 +5,7 @@ project:
 format:
   html:
     mainfont: Roboto
+#    monofont: Roboto
     css: materials/assets/styles/styles.css
     toc: true
     theme: 
