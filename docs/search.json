@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "assets/stats101/basic-probability/stats101-1.html",
-    "href": "assets/stats101/basic-probability/stats101-1.html",
-    "title": "stat 1",
-    "section": "",
-    "text": "1+1\n\n[1] 2"
-  },
-  {
-    "objectID": "assets/stats101/basic-probability/stats101-2.html",
-    "href": "assets/stats101/basic-probability/stats101-2.html",
-    "title": "stat 2",
-    "section": "",
-    "text": "2+2\n\n[1] 4"
-  },
-  {
-    "objectID": "assets/tutorials/index_tutorials.html",
-    "href": "assets/tutorials/index_tutorials.html",
-    "title": "materials/tutorials/index",
-    "section": "",
-    "text": "tut 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntut 1\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\nMe\n\n\nJan 26, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "assets/tutorials/posts/thema-1/tutorial-1.html",
-    "href": "assets/tutorials/posts/thema-1/tutorial-1.html",
-    "title": "tut 1",
-    "section": "",
-    "text": "Code1+1\n\n[1] 2\n\nCodelibrary(ggplot2)\nggplot(iris, aes(x = Petal.Length, y = Petal.Width, color = Species))+\n  geom_point()"
-  },
-  {
-    "objectID": "assets/tutorials/posts/thema-1/tutorial-2.html",
-    "href": "assets/tutorials/posts/thema-1/tutorial-2.html",
-    "title": "tut 2",
-    "section": "",
-    "text": "2+2\n\n[1] 4"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Martin Neubert",

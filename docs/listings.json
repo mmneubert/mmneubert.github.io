@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/assets/tutorials/index_tutorials.html",
-    "items": [
-      "/assets/tutorials/posts/thema-1/tutorial-2.html",
-      "/assets/tutorials/posts/thema-1/tutorial-1.html"
-    ]
-  },
-  {
     "listing": "/materials/tutorials/index_tutorials.html",
     "items": [
       "/materials/tutorials/posts/thema-1/tutorial-2.html",
